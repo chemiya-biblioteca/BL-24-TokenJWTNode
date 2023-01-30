@@ -1,0 +1,16 @@
+npm install --save jsonwebtoken bcrypt cookie-parser
+
+http://localhost:3000/apiRouter/register
+{
+  "userName": "sam", "email": "sam@gmail.com", "password": "123sam"}
+
+
+  http://localhost:3000/apiRouter/login
+  {
+   "email": "sam@gmail.com", "password": "123sam"}
+
+   modificar un usuario a role admin
+
+   UPDATE user
+SET role = 'admin'
+WHERE id = 1;
